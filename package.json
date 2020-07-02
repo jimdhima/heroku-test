@@ -1,16 +1,24 @@
 {
-  "name": "hotrestaurant",
-  "version": "1.0.1",
+  "name": "heroku-test",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimdhima/heroku-test.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimdhima/heroku-test/issues"
+  },
+  "homepage": "https://github.com/jimdhima/heroku-test#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.1"
   }
 }
